@@ -1,58 +1,25 @@
 <!DOCTYPE html>
+<!--Hon Ng (SSID: HONG7484 no.460372008)
+Webpage for Starlight Children's foundation based on website proposal A2-->
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width", "initial-scale=1.0">
     <title>Starlight Children's Foundation</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    
-    <style>
-    .item1 { grid-area: header; }
-    .item3 { grid-area: main; }
-    .item5 { grid-area: footer; }
-    .item6 { grid-area: tabs; }
-    .item10 { grid-area: logo; }
-
-    .grid-container {
-      display: grid;
-      grid-template-areas:
-        'logo   header  header  header  tabs'
-        'main   main    main    main    main'
-        'footer footer  footer  footer  footer';
-      grid-gap: 1px;
-      background-color: #2196F3;
-      padding: 10px;
-    }
-
-    .grid-container > div {
-      background-color: rgba(255, 255, 255, 0.8);
-      text-align: center;
-      padding: 1px 0;
-      font-size: 30px;
-    }
-    </style>
-  </head>
-
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
 
 
   <body>
-    <div class="grid-container">
-      <div class="item10">
-        <img src="Starlight_Logo2.png" alt="Starlight Childrens Foundation" width="200" height="67">
-      </div>
-      <div class="item1">Starlight Children's Foundation</div>
-      <div class="item6">Tabs</div>
-      <div class="item3">
-        <center>
-          <p>
-            Brighten the lives of seriously ill<br> children nad their families
-          </p>
-            <button>volunteer</button>
-            <button>Fundraise</button>
-            <button>Donate</button>
-        </center>
-      </div>
-      <div class="item5">Sign up to our newsletter for the latest information</div>
+    <img class='brand' src="Starlight_Logo.png" alt="Starlight Children's Foundation">
+    <div class="flex-container">
+      <div>What We Do</div>
+      <div>How To Help</div>
+      <div>News & Updates</div>
+      <div>About Us</div>
     </div>
+
+
+    <script src="script.js"></script>
   </body>
 </html>
