@@ -1,45 +1,11 @@
-* {
-      box-sizing: border-box;
-    }
-
     .flex-container {
       display: flex;
       flex-direction: row;
+      justify-content: flex-end;
     }
     
     .flex-container > div {
       background-color: #FFFFFF;
-      padding: 200px;
-      flex: 50%;
-    }
-    .flex-container > div:nth-child(1) {
-      background-color: #FFFFFF;
-      padding: 0px;
-      flex: 10%;
-    }
-
-    .flex-container > div:nth-child(2) {
-      background-color: #FFFFFF;
-      padding: 0px;
-      flex: 10%;
-    }
-
-    .flex-container > div:nth-child(3) {
-      background-color: #FFFFFF;
-      padding: 0px;
-      flex: 10%;
-    }
-
-    .flex-container > div:nth-child(4) {
-      background-color: #FFFFFF;
-      padding: 0px;
-      flex: 10%;
-    }
-    
-    .flex-container > div:nth-child(5) {
-      background-color: #FFFFFF;
-      padding: 0px;
-      flex: 10%;
     }
 
     .brand {
@@ -47,7 +13,6 @@
       height: auto;
     }
 
-    /* Responsive layout - makes a one column-layout instead of two-column layout */
     @media (max-width: 800px) {
       .flex-container {
         flex-direction: column;
@@ -198,13 +163,14 @@
     h1.a {
       color: #6C3483;
       font-family: verdana;
-      font-size: 50px;
+      font-size: 70px;
       text-align: center;
+      padding: 100px;
     }
 
     p.a {
       color: #000000;
       font-family: verdana;
-      font-size: 15px;
+      font-size: 25px;
       text-align: left;
     }
