@@ -1,11 +1,16 @@
     .flex-container {
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
     }
     
+    #navbar {
+      justify-content: flex-end;
+    }
+
     .flex-container > div {
       background-color: #FFFFFF;
+      padding: 10px;
+      
     }
 
     .brand {
@@ -33,7 +38,7 @@
       margin: 4px 2px;
       transition-duration: 0.4s;
       cursor: pointer;
-      font-family: verdana ;
+      font-family: verdana;
       font-weight: 900;
       font-size: 18px;
     }
@@ -47,4 +52,12 @@
     .button1:hover {
       background-color: #6C3483;
       color: #FFFFFF;
+    }
+
+    #ourpeople {
+      text-align: center;
+      justify-content: center;
+      font-family: verdana;
+      color:#6C3483;
+      font-size: 15px;
     }

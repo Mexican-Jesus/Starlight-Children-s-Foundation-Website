@@ -13,13 +13,17 @@ Webpage for Starlight Children's foundation based on website proposal A2-->
 
   <body>
 
+
 <!--Logo-->
-    <img class='brand' src="Starlight_Logo.png" alt="Starlight Children's Foundation">
+    <img id="logo" src="Starlight_Logo.png" alt="Starlight Children's Foundation">
     
+
 <!--Nav Bar-->
-    <div class="flex-container">
+    <div id="navbar" class="flex-container">
       <div>
-        <button class="button button1"><a href="aboutus.html">About Us</a></button>
+        <button class="button button1">
+          <a href="aboutus.html">About Us</a>
+        </button>
       </div>
 
       <div>
@@ -31,24 +35,26 @@ Webpage for Starlight Children's foundation based on website proposal A2-->
       </div>
     </div>
 
+
 <!--Welcome-->
-    <div class="container">
-      <img src="Happy_Kids.jpg" alt="Starlight Kids" class="responsive">
-      <div class="centered">
-        <p style="font-size:2.5vw;">Brighten the lives of seriously ill children and their families</p>
+    <div id="banner" class="flex-container">
+      <div class="container">
+        <img src="Happy_Kids.jpg" alt="Starlight Kids" class="responsive">
+        <div id="bannertext" class="centered">Brightening the lives of seriously ill children and their families</div>
       </div>
     </div>
 
 <!--INTRO-->
-<div class="flex-container" style="padding: 100px">
-  <div>
+<div id="intro" class="flex-container">
+  <div id="title">
     <h1 class="a">Our Mission</h1>
   </div>
+
   <div>
     <p class="a">
       At Starlight we know that happiness matters to sick kids facing the pain, fear and stress of serious illness.<br>
       <br>
-      That's why for over 30 years we've worked in partnership with health professionals to bring the fun, joy and laughter that helps sick kids be kids.<br>
+      That's why for over <strong>30 years</strong> we've worked in partnership with health professionals to bring the fun, joy and laughter that helps sick kids be kids.<br>
       <br>
       We help kids of all ages regardless of disability, injury or illness because what happens in childhood lasts a lifetime.<br>
       <br>
@@ -57,30 +63,20 @@ Webpage for Starlight Children's foundation based on website proposal A2-->
   </div>
 </div>
 
+
 <!--3 choices-->
-    <div class="flex-container">
-      <div class="container2">
-        <img id="Volunteer" src="Volunteer.jpg" alt="volunteer" class="responsive" class="image">
-        <div class="middle">
-            <button class="button button1">Volunteer</button>
-        </div>
+    <div id="options" class="flex-container">
+      <div class="container">
+        <img src="Volunteer.jpg" alt="volunteer" class="responsive" class="image">
+      </div>
+      <div>
+        <img src="fundraise.jpg" alt="fundraise" class="responsive" class="image">
       </div>
 
-      <div class="container2">
-        <img id="Fundraise" src="fundraise.jpg" alt="fundraise" class="responsive" class="image">
-        <div class="middle">
-            <button class="button button1">Fundraise</button>
-        </div>
+      <div>
+        <img src="donate.jpg" alt="donate" class="responsive" class="image">
       </div>
-
-      <div class="container2">
-        <div>
-          <img id="Donate" src="donate.jpg" alt="donate" class="responsive" class="image">
-          <div class="middle">
-              <button class="button button1">Donate</button>
-          </div>
-        </div>
-      </div>
+    </div>
     </div>
 
 <!--EMAIL-->
