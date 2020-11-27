@@ -8,6 +8,7 @@
 
     #banner {
       justify-content: center;
+      align-items: center;
     }
     #logo {
       width: 20%;
@@ -24,13 +25,14 @@
 
     #intro {
       justify-content: center;
+      padding-top: 50px;
     }
 
     #title {
       text-align: center;
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
       .flex-container {
         flex-direction: column;
       }
@@ -62,18 +64,12 @@
     }
 
 
-//TEXT OVER IMAGE
+
     .container {
       position: relative;
-      text-align: center;
+      justify-content: center;
     }
 
-    #bannertext {
-      color: #6C3483;
-      font-family: Verdana;
-      font-size: 2.5vw;
-      font-weight: 900;
-    }
     .centered {
       position: absolute;
       top: 50%;
@@ -81,14 +77,21 @@
       transform: translate(-50%, -50%);
     }
 
+    #bannertext {
+      color: #6C3483;
+      font-family: verdana;
+      font-size: 2.5vw;
+      text-align: left;
+      font-weight: bolder;
+    }
+
     .responsive {
       width: 100%;
-      max-width: 100%;
       height: auto;
     }
 
+    
 
-//EMAIL
     form {
       border: 3px solid #f1f1f1;
       font-family: Verdana;
@@ -125,11 +128,8 @@
       opacity: 0.8;
     }
 
-    #whoweare {
-      padding-top: 100px;
-      padding-bottom: 50px;
-    }
-    
+
+
     h1.a {
       color: #6C3483;
       font-family: verdana;

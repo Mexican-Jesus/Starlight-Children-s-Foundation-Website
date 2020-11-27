@@ -2,15 +2,8 @@
       display: flex;
       flex-direction: row;
     }
-    
     #navbar {
       justify-content: flex-end;
-    }
-
-    .flex-container > div {
-      background-color: #FFFFFF;
-      padding: 10px;
-      
     }
 
     #logo {
@@ -18,24 +11,22 @@
       height: auto;
     }
 
-    .starlightkids {
-      width: 70%;
-      height: auto;
+    .flex-container > div {
+      background-color: #FFFFFF;
     }
 
-    #careers {
+    #middle {
       justify-content: center;
-      align-content: space-around;
-      align-items: center;
+      align-items: left;
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
       .flex-container {
         flex-direction: column;
       }
     }
 
-*   .button {
+    .button {
       border: none;
       padding: 16px 32px;
       text-align: center;
@@ -44,7 +35,7 @@
       margin: 4px 2px;
       transition-duration: 0.4s;
       cursor: pointer;
-      font-family: verdana;
+      font-family: verdana ;
       font-weight: 900;
       font-size: 18px;
     }
@@ -60,24 +51,30 @@
       color: #FFFFFF;
     }
 
-    p.a {
-      font-family: verdana;
-      font-weight: 900;
-      font-size: 15px;
-      color: #6C3483;
-    }
-
-    #ourpeople {
-      text-align: center;
+    #option {
+      width: 250px;
       justify-content: center;
+      align-items: left;
+    }
+    
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    div.a {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    h2.a {
+      text-align: center;
+      color: #6C3483;
       font-family: verdana;
-      color:#6C3483;
-      font-size: 15px;
     }
-
-    #teamwork {
-      width: 40%;
-      height: auto;
-      align-content: space-around;
-    }
-

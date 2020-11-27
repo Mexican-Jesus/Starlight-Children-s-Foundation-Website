@@ -6,7 +6,7 @@ Webpage for Starlight Children's foundation based on website proposal A2-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width", "initial-scale=1.0">
     <title>Starlight Children's Foundation</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
   </head>
 
 
@@ -15,29 +15,35 @@ Webpage for Starlight Children's foundation based on website proposal A2-->
 
 
 <!--Logo-->
-    <img id="logo" src="Starlight_Logo.png" alt="Starlight Children's Foundation">
+    <a href="index.html"><img id="logo" src="Starlight_Logo.png" alt="Starlight Children's Foundation"></a>
     
 
 <!--Nav Bar-->
     <div id="navbar" class="flex-container">
       <div>
-        <button class="button button1">
-          <a href="aboutus.html">About Us</a>
-        </button>
+        <a href="aboutus.html">
+          <button class="button button1">About Us</button>
+        </a>
       </div>
 
       <div>
-        <button class="button button1">How To Help</button>
+        <a href="howtohelp.html">
+          <button class="button button1">How To Help</button>
+        </a>
       </div>
 
       <div>
-        <button class="button button1">News and Updates</button>
+        <a href="newsandupdates.html">
+          <button class="button button1">News & Updates</button>
+        </a>
       </div>
     </div>
 
 
-<!--Welcome-->
+<!--WELCOME-->
+    <!--Banner-->
     <div id="banner" class="flex-container">
+      <!--Text-->
       <div class="container">
         <img src="Happy_Kids.jpg" alt="Starlight Kids" class="responsive">
         <div id="bannertext" class="centered">Brightening the lives of seriously ill children and their families</div>
@@ -67,14 +73,29 @@ Webpage for Starlight Children's foundation based on website proposal A2-->
 <!--3 choices-->
     <div id="options" class="flex-container">
       <div class="container">
-        <img src="Volunteer.jpg" alt="volunteer" class="responsive" class="image">
+        <img src="Volunteer.jpg" alt="volunteer" class="responsive">
+        <div>
+            <a href="volunteering.html">
+              <button class="button button1">Volunteer</button>
+            </a>         
+        </div>
       </div>
       <div>
-        <img src="fundraise.jpg" alt="fundraise" class="responsive" class="image">
+        <img src="fundraise.jpg" alt="fundraise" class="responsive">
+        <div>
+          <a href="fundraising.html">
+            <button class="button button1">Fundraiser</button>
+          </a>
+        </div>
       </div>
 
       <div>
-        <img src="donate.jpg" alt="donate" class="responsive" class="image">
+        <img src="donate.jpg" alt="donate" class="responsive">
+        <div>
+          <a href="donate.html">
+            <button class="button button1">Donate</button>
+          </a>
+        </div>
       </div>
     </div>
     </div>
