@@ -1,21 +1,21 @@
     .flex-container {
       display: flex;
       flex-direction: row;
+      
+
     }
     #navbar {
       justify-content: flex-end;
     }
 
-    #banner {
-      justify-content: center;
-      align-items: center;
-    }
     #logo {
       width: 20%;
       height: auto;
     }
+    
 
-    #options {
+    #middle {
+      padding-top: 30px;
       justify-content: space-around;
     }
 
@@ -23,15 +23,7 @@
       background-color: #FFFFFF;
     }
 
-    #intro {
-      justify-content: center;
-      padding-top: 50px;
     }
-
-    #title {
-      text-align: center;
-    }
-
     @media (max-width: 1000px) {
       .flex-container {
         flex-direction: column;
@@ -62,3 +54,36 @@
       background-color: #6C3483;
       color: #FFFFFF;
     }
+
+    h1.a {
+      color: #6C3483;
+      font-family: Verdana;
+    }
+
+    h3.a {
+      color: #6C3483;
+      font-family: Verdana;
+    }
+
+    .header {
+      
+      padding-bottom:20px;
+      padding-top:20px;
+      position:relative;
+      display:inline-block;
+
+    }
+
+    .headertext{
+      text-align: center;
+      color: #6C3483;
+      font-family: verdana;
+      font-weight: 900;
+      font-size: 30px;
+      left: 315px;
+      bottom:60px;
+      position:absolute;
+
+
+    }
+    
