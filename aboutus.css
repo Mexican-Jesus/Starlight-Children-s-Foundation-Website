@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;700&display=swap');
     
     .flex-container {
       display: flex;
@@ -43,7 +43,7 @@
       font-family: verdana;
       font-weight: 900;
       font-size: 30px;
-      left: 315px;
+      left: 305px;
       bottom:60px;
       position:absolute;
 
@@ -51,8 +51,19 @@
     }
 
     #middle {
-      justify-content: center;
       align-items: center;
+      height: auto;
+     justify-content:space-evenly;
+      text-align:center;
+     font-family: 'Karla', sans-serif;
+      font-weight: 900;
+      font-size: 16px;
+      color: #6C3483;
+      padding-bottom:60px;
+      padding-top:40px;
+
+      
+
     }
 
     @media (max-width: 800px) {
@@ -60,6 +71,7 @@
         flex-direction: column;
       }
     }
+   
 
 *   .button {
       border: none;
@@ -86,6 +98,17 @@
       color: #FFFFFF;
     }
 
+    .teamheader{
+      text-align: center;
+      color: #6C3483;
+      font-family: verdana;
+      font-weight: 900;
+      font-size: 30px;
+      justify-content:center;
+      padding-bottom:40px;
+      padding-top:20px;
+    }
+
     p.a {
       padding-top: 35px;
       font-family: 'Karla', sans-serif;
@@ -95,17 +118,37 @@
       padding-right:50px;
     }
 
-    #ourpeople {
-      
-     text-align: center;
+    b{
+      font-family:'Karla',bold;
+      font-size:20px;
       color: #6C3483;
-      font-family: verdana;
+
+    }
+
+    p{
+      color: #0c0c0c;
+
+    }
+
+    img{
+    border-radius:3%;
+
+    }
+
+    #ourpeople {
+      border-radius:50%;
+     justify-content:center;
+      text-align:center;
+     font-family: 'Karla', sans-serif;
       font-weight: 900;
-      font-size: 30px;
+      font-size: 16px;
+      color: #0c0c0c;
+      padding-bottom:20px;
+      
     }
 
     #teamwork {
-      width: 40%;
+      width: 100%;
       height: auto;
       align-content: space-around;
     }

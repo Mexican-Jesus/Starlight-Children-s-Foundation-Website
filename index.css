@@ -90,7 +90,6 @@
       height: auto;
     }
 
-    
 
     form {
       border: 3px solid #f1f1f1;
@@ -101,7 +100,7 @@
       padding: 100px;
       font-family: verdana;
       font-weight: 900;
-      font-size: 30px;
+      font-size: 6vw;
       color: #6C3483;
     }
 

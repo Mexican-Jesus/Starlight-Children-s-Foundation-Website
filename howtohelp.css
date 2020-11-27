@@ -12,18 +12,21 @@
       width: 20%;
       height: auto;
     }
+
     
 
     #middle {
       padding-top: 30px;
-      justify-content: space-around;
+      align-content:center;
+      justify-content:center;
+      padding-left:60px;
     }
 
     .flex-container > div {
       background-color: #FFFFFF;
     }
 
-    }
+    
     @media (max-width: 1000px) {
       .flex-container {
         flex-direction: column;
@@ -48,6 +51,8 @@
       background-color: white; 
       color: #6C3483;
       border: 0px;
+      padding-left:130px;
+
     }
 
     .button1:hover {
@@ -63,6 +68,7 @@
     h3.a {
       color: #6C3483;
       font-family: Verdana;
+      text-align: center;
     }
 
     .header {
@@ -72,6 +78,7 @@
       position:relative;
       display:inline-block;
 
+
     }
 
     .headertext{
@@ -79,11 +86,10 @@
       color: #6C3483;
       font-family: verdana;
       font-weight: 900;
-      font-size: 30px;
+      font-size: 29px;
       left: 315px;
       bottom:60px;
       position:absolute;
-
+      padding-right:30px;
 
     }
-    
