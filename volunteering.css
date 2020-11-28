@@ -1,9 +1,12 @@
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&display=swap');
+    
     .flex-container {
       display: flex;
       flex-direction: row;
     }
     #navbar {
       justify-content: flex-end;
+      padding-bottom:40px;
     }
 
     #banner {
@@ -16,7 +19,12 @@
     }
 
     #options {
+      padding-top:20px;
       justify-content: space-around;
+      font-family: 'Barlow', sans-serif;
+      font-weight: 900;
+      font-size: 15px;
+      color: #0c0c0c;
     }
 
     .flex-container > div {
@@ -69,12 +77,21 @@
     }
 
     .headertext{
-      text-align: center;
+      
+
       color: #6C3483;
       font-family: verdana;
-      font-weight: 900;
-      font-size: 30px;
-      left: 305px;
-      bottom:60px;
-      position:absolute;
+      font-size: 2vw;
+      text-align: center;
+      font-weight: bolder;
+      position: absolute;
+      top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+    }
+
+    #volunteerbtn{
+      padding-bottom:50px;
+      justify-content: center;
+      align-content:center;
     }
